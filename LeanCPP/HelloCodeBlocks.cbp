@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="HelloCodeBlocks" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/HelloCodeBlocks" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add option="-pthread" />
+					<Add directory="include" />
+					<Add directory="../HelloCodeBlocks" />
+				</Compiler>
+				<Linker>
+					<Add option="-lpthread" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/HelloCodeBlocks" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="../HelloCodeBlocks" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="BTree.cpp" />
+		<Unit filename="BTree.h" />
+		<Unit filename="BinaryHeap.cpp" />
+		<Unit filename="BinaryHeap.h" />
+		<Unit filename="CppEleven.cpp" />
+		<Unit filename="CppEleven.h" />
+		<Unit filename="IMenu.h" />
+		<Unit filename="LearnCpp.cpp" />
+		<Unit filename="LearnCpp.h" />
+		<Unit filename="LearnException.cpp" />
+		<Unit filename="LearnException.h" />
+		<Unit filename="LearnTemplates.cpp" />
+		<Unit filename="LearnTemplates.h" />
+		<Unit filename="LearnThreads.cpp" />
+		<Unit filename="LearnThreads.h" />
+		<Unit filename="LinkedList.cpp" />
+		<Unit filename="LinkedList.h" />
+		<Unit filename="MemTrack.h" />
+		<Unit filename="PayPal.cpp" />
+		<Unit filename="PayPal.h" />
+		<Unit filename="ProblemSolving.cpp" />
+		<Unit filename="ProblemSolving.h" />
+		<Unit filename="SortAlgos.cpp" />
+		<Unit filename="SortAlgos.h" />
+		<Unit filename="StringProblems.cpp" />
+		<Unit filename="StringProblems.h" />
+		<Unit filename="TestInheritance.cpp" />
+		<Unit filename="TestInheritance.h" />
+		<Unit filename="ThreadPool.cpp.cpp" />
+		<Unit filename="ThreadPool.cpp.h" />
+		<Unit filename="TreeNode.cpp" />
+		<Unit filename="TreeNode.h" />
+		<Unit filename="interval_map.cpp" />
+		<Unit filename="interval_map.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

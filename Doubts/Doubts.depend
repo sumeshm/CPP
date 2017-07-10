@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1476952924 source:c:\users\summani\downloads\workspacecodeblocks\doubts\main.cpp
+	<iostream>
+	"Child.h"
+	"Child.h"
+
+1476953011 c:\users\summani\downloads\workspacecodeblocks\doubts\include\child.h
+	"Parent.h"
+
+1476952768 c:\users\summani\downloads\workspacecodeblocks\doubts\include\parent.h
+
